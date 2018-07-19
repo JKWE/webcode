@@ -1,0 +1,23 @@
+body{
+    width: 900px;
+    margin: 0 auto;
+}
+h1{
+    background-color: #555555;
+    color: white;
+    padding: 15px 500px 15px 15px;
+
+
+}
+table{
+    border: 1px solid gray;
+}
+tr,td,th{
+    border: 1px solid gray;
+    width: 100px;
+    height: 20px;
+}
+tr table{
+    padding-right: 700px;
+}
+
