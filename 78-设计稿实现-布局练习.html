@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			body{
+				margin: 0;
+				font-family: simsun;
+			}
+			/*--------------------*/
+			#header{
+				width: 100%;
+				background-color: dimgray;
+				height: 32px;
+			}
+			.middle1{
+				width: 960px;
+				margin: 0 auto;
+			}
+			.middle1 p{
+				color: white;
+				line-height: 27px;
+				display: inline;
+			}
+			#aaa{
+				float: right;
+			}
+			.middle1 a{
+				text-decoration: none;
+				color: white;
+				line-height: 28px;
+				
+			}
+			.middle1 a:hover{
+				color: greenyellow;
+			}
+			/*------------------------*/
+			#banner{
+				width: 100%;
+				height: 170px;
+				background-image: url(img/banner1.png) ;
+			}
+			/*-------------------------*/
+			#nav{
+				width: 960px;
+				margin: 0 auto;
+				height: 48px;
+			}
+			#nav1, #nav2 ,#nav3{
+				float: left;
+				padding: 10px;
+				margin: 4px;
+				border: solid 1px;
+				border-radius: 5px;
+				background-color: limegreen;opacity: 0.5;
+				color: white;
+			}
+			#nav1{
+				background-color: limegreen;opacity: 1;
+			}
+			/*----------------------------------*/
+			#main{
+				width: 960px;
+				margin: 0 auto;
+				display: flex;
+				flex-wrap: wrap;
+				flex: 1;
+				
+				}
+			#main div{
+				width: 250px;
+				height: 180px;
+				text-align:center ;
+				padding: 5px 0;
+				border: solid 1px;
+				border-radius: 5px;
+				margin: 10px;
+				
+				
+			}
+			#main div:nth-of-type（3）{flex ：2} 
+			/*-----------------------*/
+			#footer{
+				width: 100%;
+				height: 68px;
+				background-color: dimgray;
+				text-align: center;
+				line-height: 48px;
+				color: white;
+			}
+			
+			
+			
+			
+		</style>
+	</head>
+	<body>
+		<div id="header">
+			<div class="middle1">
+				<p>LOGO</p>
+				<div id="aaa">
+					
+				<a href="#">github</a>
+				<a href="#">registor</a>
+				<a href="#">login</a>
+				</div>
+			</div>
+			<div id="banner">
+				
+			</div>
+			<div id="nav">
+				<div id="nav1">
+					HOME
+				</div>
+				<div id="nav2">
+					ABOUT
+					
+				</div>
+				<div id="nav3">
+					PROFIle
+				</div>
+			</div>
+			<div id="main">
+				<div id="conten1">
+					conten1
+				</div>
+				<div id="conten2">
+					conten2
+				</div>
+				<div id="conten3">
+					conten3
+				</div>
+				<div id="conten4">
+					conten4
+				</div>
+				<div id="conten5">
+					conten5
+				</div>
+				<div id="conten6">
+					conten6
+				</div>
+				<div id="conten7">
+					conten7
+				</div><div id="conten8">
+					conten8
+				</div>
+			</div>
+			<div id="footer">
+				@2008zhongguohanwei
+			</div>
+		</div>
+	</body>
+</html>
