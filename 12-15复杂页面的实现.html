@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="{CHARSET}">
+		<title></title>
+		<style type="text/css">
+			body{
+				font-family: "eras light itc";
+				margin: 0;
+				min-width:1200px ;
+				
+			}
+			/*---------------------------------*/
+			#container{
+				position: relative;
+				
+				
+			}
+			/*--------------------------------*/
+			#left{
+				width: 100px;
+				position: absolute;
+				left: 0;
+				top:0 ;
+				background-image: url(img/12-15-assets/Base.png);
+			
+				height:1020px;
+			    
+		
+				border: #696969 1px solid;
+				color: white;
+				position: fixed;
+				left: 0;
+				
+				
+			}
+			#left-top{
+				height: 300px;
+				position: fixed;
+				margin-right: 100%;
+				
+				
+			}
+			#left-top img{
+				margin: 10px 10px;
+				width: 30px;
+				height: 30px;
+			}
+			#left-bottom{
+				height: 20px;
+				position: fixed;
+				bottom: 0;
+				left: 5px;
+				
+
+				
+			}
+			
+			/*----------------------------------*/
+			#memu{
+				width: 250px;
+				position: absolute;
+				left: 100px;
+				top:0 ;
+				background-image: url(img/12-15-assets/Base-Secondary.png);
+				border: #696969 1px solid;
+				height: 1020px;
+				color: white;
+				padding: 0 20px;
+				box-sizing: border-box;
+				position: fixed;
+				left: 100px;
+				
+			}
+			
+			#part1 ,#part2 ,#part3 {
+				margin: 20px;
+			}
+			
+			.imgtittle{
+
+				float: right;
+			    display: inline-block;
+			   margin: 10px 3px ;
+			    
+				
+			}
+			.imgcontent{
+				float: right;
+			    display: inline-block;
+			    width: 12px;
+			    height: 12px;
+			}
+			#part .title {
+				display: inline-block;
+			   height: 16px;
+			   margin: 10px 3px ;
+				
+			}
+			#part .title2{
+				display: block;
+			   height: 16px;
+			   margin: 10px 3px ;
+			   font-size: x-small;
+			   color: darkgray;
+			}
+			#menubottom{
+				height: 32px;
+				position: fixed;
+				bottom: 5px;
+				left: 105px;
+				
+			}
+			
+			/*----------------------------------*/
+			#chat{
+				margin-left: 350px;
+				
+				
+				position: relative;
+				border: #696969 1px solid;
+				z-index: -1;
+			}
+			/*----------------------------------*/
+			#header{
+				
+				
+				height: 79px;
+				
+				padding: 12px;
+				box-sizing: border-box;
+				margin: 0;
+				border-bottom: #708090 1px solid;
+			}
+			
+			#header img{
+				float: right;
+				margin: 0 5px;
+				
+			}
+			/*----------------------------------*/
+			#messages{
+				
+				position: absolute;
+				left: 0;
+				
+				background: white;
+			}
+			#messages img{
+				display: block;
+				width: 350px;
+			}
+			/*----------------------------------*/
+			#right{
+			
+				
+				
+				padding-left: 400px;
+				box-sizing: border-box;
+				border-left: #696969 1px solid;
+				font-size: 12px;
+				color: slategray;
+				
+			}
+			#rightheader{
+				height: 32px;
+				color: grey;
+			}
+			#headerimg1,#headerimg2{
+				float: right;
+			}
+			#headerimg2{
+				padding: 6px 42px ;
+			}
+			#gitmessage{
+				border-bottom:solid 1px slategray ;
+			}
+			#gitmessage img{
+				float: left;
+			}
+			.time{
+				color: deepskyblue;
+			}
+			/*----------------------------------*/
+			/*----------------------------------*/
+			
+			
+		</style>
+		
+	</head>
+	<body>
+		<div id="container">
+			<div id="left">
+				<div id="left-top">
+					<a href="https://www.baidu.com/"><img src="img/12-15-assets/Item1.png" alt="" /></a>
+					<img src="img/12-15-assets/Item2.png" alt="" />				
+					<img src="img/12-15-assets/Item3.png" alt="" />				
+					<img src="img/12-15-assets/AddApp.png" alt="" />
+				</div>
+				<div id="left-bottom">
+					<a href="https://www.qunar.com/"><img src="img/12-15-assets/Grid.png"/></a>
+					<a href="https://www.qunar.com/"><img src="img/12-15-assets/Settings.png"/></a>
+				</div>
+				
+			</div>
+			<div id="memu">
+				<div id="part">
+					<div id="part1">
+						<div id="#">
+							<p class="title">MENU</p>
+							<img class="imgtittle"src="img/12-15-assets/Settings.png"/>
+							<p class="title2">overview</p>
+							<p class="title2">more <img class="imgcontent" src="img/12-15-assets/Alert Icon.png"/></p>
+							<p class="title2">aboutme</p>
+							<p class="title2">serach</p>
+							
+						</div>
+					</div>
+					<div id="part2">
+						<div id="#">
+							<p class="title">Your Products</p>
+							<img class="imgtittle"src="img/12-15-assets/Settings.png"/>
+							<p class="title2"><img src="img/12-15-assets/Book-of-Wisdom.png"/>&nbsp;&nbsp;&nbsp;overview</p>
+							<p class="title2"><img src="img/12-15-assets/Chart.png"/>&nbsp;&nbsp;&nbsp;more</p>
+							<p class="title2"><img src="img/12-15-assets/Chart.png"/>&nbsp;&nbsp;&nbsp;aboutme</p>
+							<p class="title2"><img src="img/12-15-assets/Painting.png"/>&nbsp;&nbsp;&nbsp;serach</p>
+							
+						</div>
+					</div>
+					<div id="part3">
+						<div id="#">
+							<p class="title">Dashboard</p>
+							<img class="imgtittle"src="img/12-15-assets/Settings.png"/>
+							<p class="title2">overview <img class="imgcontent" src="img/12-15-assets/Notification.png"/></p>
+							<p class="title2">more</p>
+							<p class="title2">aboutme</p>
+							<p class="title2">serach</p>
+						</div>
+					</div>
+				</div>
+				<div id="menubottom">
+					<img src="img/12-15-assets/Server Capacity.png"/>
+				</div>
+			</div>
+			<div id="chat">
+				
+				<div id="header">
+					&nbsp;&nbsp;MESSAGE
+					<img src="img/12-15-assets/dropdown.png"/>
+					<img src="img/12-15-assets/Name/Role.png"/>
+					<img src="img/12-15-assets/Photo.png"/>
+					
+				</div>
+			
+				<div id="messages">
+					<form action="" method="post"style="background-image: url(img/12-15-assets/Search3.png);margin:8px ;width: 340px;">
+						
+						<input type="text" style="background-image: url(); margin: 7px; border: 0;outline: none;" name="" placeholder="search" value="" />
+					</form>
+					<img src="img/12-15-assets/Chat 1.png"/>
+					<img src="img/12-15-assets/Chat 2.png"/>
+					<img src="img/12-15-assets/Chat 3.png"/>
+					<img src="img/12-15-assets/Chat 4.png"/>
+					<img src="img/12-15-assets/Chat 5.png"/>
+					<img src="img/12-15-assets/Chat 6.png"/>
+					<img src="img/12-15-assets/Chat 7.png"/>
+					
+					
+					
+					
+				</div>
+				<div id="right">
+					<div id="rightheader">
+						&nbsp; Bessie berry &nbsp;<img src="img/12-15-assets/Status.png"/>
+						<img id="headerimg1" src="img/12-15-assets/Chats one of.png"/>
+						<div id="headerimg2">
+							<img src="img/12-15-assets/User icon.png"/>
+							<img src="img/12-15-assets/Upload icon.png"/>
+							<img src="img/12-15-assets/Trash icon.png"/>
+						</div>
+					</div>
+					<div id="gitmessage">
+						<img src="img/12-15-assets/Avatar photo.png"/> <p class="name">Jordan Jackson</name> <p class="time">AM 12:15</p>
+						<p class="gitmessagetext">I have internet for 9 month and nevere could benefit from the full capacity of 5Mbit/s as it is filtered by O2 when it detect traffic on public p2p sharing in my situation all my internet speed slows to 512Kbit/s. I never had 400KB/s on when downloading from p2p public servers like torrent emule etc. I downoad with 500KB/s from private trakers instead. So conlcusion O2 block trafic on p2p connections. I have made hundreds of test in Italy and Sweden and Romania with the same file to doanload with the same setting and same antivirus and just needed to open ports in firewall and forward same ports and the speed was at full capacity in 1 minute. here in 9 month never had this luck.</p>
+					</div>
+					<div id="gitmessage">
+						<img src="img/12-15-assets/Pic.png"/> <p class="name">Bessie Berry</name> <p class="time">PM 04:15</p>
+						<p class="gitmessagetext">Hi guys Ive got the O2 package and have really slow internet. A speed check online said i can get 3mbps but it seems more like 0.5 these days, just freezing and taking ages to open pages and open audio files for example. I have decided to switch to the UPC package which offers 10mbps but do you think i will get it?</p>
+					</div>
+					<div id="gitmessage">
+						<img src="img/12-15-assets/Avatar photo.png"/> <p class="name">Jordan Jackson</name> <p class="time">AM 12:15</p>
+						<p class="gitmessagetext">I have internet for 9 month and nevere could benefit from the full capacity of 5Mbit/s as it is filtered by O2 when it detect traffic on public p2p sharing in my situation all my internet speed slows to 512Kbit/s. I never had 400KB/s on when downloading from p2p public servers like torrent emule etc. I downoad with 500KB/s from private trakers instead. So conlcusion O2 block trafic on p2p connections. I have made hundreds of test in Italy and Sweden and Romania with the same file to doanload with the same setting and same antivirus and just needed to open ports in firewall and forward same ports and the speed was at full capacity in 1 minute. here in 9 month never had this luck.</p>
+					</div>
+					<div id="gitmessage">
+						<img src="img/12-15-assets/Avatar photo.png"/> <p class="name">Jordan Jackson</name> <p class="time">AM 12:15</p>
+						<p class="gitmessagetext">I have internet for 9 month and nevere could benefit from the full capacity of 5Mbit/s as it is filtered by O2 when it detect traffic on public p2p sharing in my situation all my internet speed slows to 512Kbit/s. I never had 400KB/s on when downloading from p2p public servers like torrent emule etc. I downoad with 500KB/s from private trakers instead. So conlcusion O2 block trafic on p2p connections. I have made hundreds of test in Italy and Sweden and Romania with the same file to doanload with the same setting and same antivirus and just needed to open ports in firewall and forward same ports and the speed was at full capacity in 1 minute. here in 9 month never had this luck.</p>
+					</div>
+					
+					
+				</div>	
+			</div>
+			
+		</div>
+	</body>
+</html>
+
